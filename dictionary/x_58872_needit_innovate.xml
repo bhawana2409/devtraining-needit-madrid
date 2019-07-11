@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="&#9;Innovate" max_length="40" name="x_58872_needit_innovate" type="collection">
+        <element choice="1" label="New Choice" mandatory="true" max_length="40" name="new_choice" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Develop" sequence="0" value="develop"/>
+                <element inactive_on_update="false" label="Renew" sequence="1" value="renew"/>
+                <element inactive_on_update="false" label="Test" sequence="2" value="test"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element label="Idea Implemented" max_length="40" name="u_boolean_1" type="boolean"/>
+    </element>
+</database>
